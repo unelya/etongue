@@ -1,0 +1,12 @@
+# Metal-Organic Frameworks at the Tip of the E-Tongue: Machine Learning-Driven Disposabe Electrochemical Sensors
+Official implementation of:
+
+**Metal-Organic Frameworks at the Tip of the E-Tongue: Machine Learning-Driven Disposabe Electrochemical Sensors**
+
+Ivan S. Zlobin, Artem N. Sinelnikov, Nikita S. Toroptsev, Konstantin O. Titov, Evgenia Antoshkina, Igor A. Nikovskiy, Valentin V. Novikov, Yulia V. Nelyubina
+
+https://doi.org/...
+
+**Abstract**: Reusable electronic tongues (e-tongues), which rely on an array of electrodes to record electrochemical responses from complex mixtures and on advanced pattern recognition techniques to decipher them, are popular sensors in medical diagnostics, food quality control and environmental monitoring. Offering high selectivity and sensitivity with minimal or no sample preparation, they, however, require large volumes of analytes, impose a risk of sample cross-contamination and sometimes need task-specific electrode materials. We overcame such limitations by creating disposable e-tongues with electrodes modified by four available metal-organic frameworks (MOFs) with a simple drop-casting technique and by making use of state-of-the-art machine learning approaches, such as fully convolutional networks (FCN). These e-tongues were successfully tested in the classification of tea varieties, yielding a high accuracy in distinguishing between different teas on a relatively small dataset (five tea samples from each of the five varieties). Although the classification accuracy (76%) is lower than achieved when using less accessible mass spectrometry data or reusable e-tongues (sometimes up to 100%), the disposable e-tongues offer advantages in cost, speed and size of the devices and ease of their use and fabrication. Simple deposition of MOFs, which could be obtained from many organic ligands and metal ions, paves the way for a new generation of portable sensors that combine highly tunable sensitivity and selectivity with no need for large amounts of analytes or excessively large datasets – if boosted by FCN – for the on-field analysis of liquid food products, body fluids or waste and natural waters.
+
+The cyclic voltammetry data can be found in the "CV" folder of this repository, while the mass spectrometry data is located in the "MS" folder. The "src" folder contains scripts for data preprocessing, the definition of the fully convolutional network, and metrics calculation. You can train and test classification models using the main.ipynb file.
